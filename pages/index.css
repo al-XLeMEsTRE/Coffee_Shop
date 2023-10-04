@@ -7,3 +7,9 @@ line-height: 20px;
 font-family: "Inter", sans-serif;
 font-family: "Inter", Arial, Helvetica, sans-serif;
 }
+
+h1 {
+        font-family: 'Noto Serif', serif;
+        font-style: italic;
+    }
+
