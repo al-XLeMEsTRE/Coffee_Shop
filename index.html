@@ -13,13 +13,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
-
 </head>
+<!-- Body -->
 <body>
 <div class="page">
-        <!-- other elements -->
+<!-- Header -->
 <header class="header">
-<!--Nav-->
+<!-- Nav -->
 <nav class="nav">
     <img class="nav__logo" src="./images/logo_coffeeshop_dark.svg" alt="Coffee Shop logo">
     <ul class="nav__links">
@@ -40,9 +40,9 @@
     />
     <div class="header__footer">
   <ul class="header__link">
-      <li class="footer__list-item">Hours</li>
-      <li class="footer__list-item">Monday - Friday (10:00 - 19:00)</li>
-      <li class="footer__list-item">Saturday - Sunday (11:00 - 18:00)</li>
+      <li class="header__link-item">Hours</li>
+      <li class="header__link-item">Monday - Friday (10:00 - 19:00)</li>
+      <li class="header__link-item">Saturday - Sunday (11:00 - 18:00)</li>
     </ul>
       <p class="header__address">
         200 Success Avenue, The Town of Triple Peaks
@@ -58,19 +58,48 @@
         Check out some recipes we've collected for <br> your home-brewing convenience: </p>
         <div class="recipes__videos">
           <div>
-            <iframe loop control muted class="recipes__iframe" src="https://www.youtube.com/embed/j6VlT_jUVPc" title="The Ultimate AeroPress Technique (Episode #3)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="recipes__iframe" src="https://www.youtube.com/embed/j6VlT_jUVPc" title="The Ultimate AeroPress Technique (Episode #3)"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               <p class="recipes__video-caption"><span> Areopress recipe </span> ~5 min </p>
         </div>
         <div>
-          <iframe loop control muted class="recipes__iframe" src="https://www.youtube.com/embed/st571DYYTR8" title="The Ultimate French Press Technique" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe class="recipes__iframe" src="https://www.youtube.com/embed/st571DYYTR8" title="The Ultimate French Press Technique" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <p class="recipes__video-caption"><span> press recipe </span> ~15 min </p>
         </div>
         </div>
     </section>
+    <section class="reservation" id="reservation">
+              <h2 class="reservation__title">Book a table</h2>
+              <form class="form reservation__form" action="#" method="POST">
+                  <div class="form__group form__group-name">
+                    <label class="form__label" for="name">Name *</label>
+                    <input class="form__input" type="text" id="name" placeholder="Name Surname">
+                </div>
+                
+                  <div class="form__group form__group-number">
+                      <label class="form__label" for="guests">Number of guests*</label>
+                      <input class="form__input" type="number" id="guests" placeholder="1-8" min="1" max="8">
+                  </div>
+                  <div class="form__group form__group-date">
+                      <label class="form__label" for="date-time">Date & time *</label>
+                      <input class="form__input" type="date" id="date-time">
+                  </div>
+                  <div class="form__group form__group-email">
+                      <label class="form__label" for="email">Your email *</label>
+                      <input class="form__input" type="email" id="email" placeholder="email@email.com">
+                  </div>
+                  <button class="form__button" type="submit">Book a table</button>
+                  <div class="form__checkbox-group">
+                      <input class="form__checkbox" type="checkbox" id="terms">
+                      <label class="form__checkbox-label" for="terms">I agree with the terms of use</label>
+                  </div>
+              </form>
+    
+    </section>
+    <section class="menu" id="menu"> </section>
+    <section class="contacts" id="contacts"> </section>
 </main>
-<footer>
-
-</footer>
+<!-- Footer Section-->
+<footer class="footer"></footer>
 </div>
 </body>
 </html>
