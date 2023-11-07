@@ -18,6 +18,10 @@
 <div class="page">
 <!-- Header -->
 <header class="header">
+  <button class="switch" id="theme-toggle" class="theme-toggle-button">Toggle Theme</button>
+
+
+
 <!-- Nav -->
 <nav class="nav">
     <img class="nav__logo" src="./images/logo_coffeeshop_dark.svg" alt="Coffee Shop logo">
@@ -83,7 +87,7 @@
           <input class="form__input" type="number" id="guests" placeholder="1-8" min="1" max="8"> 
         </label> 
         <label class="form__label" for="date-time">Date & time *
-          <input class="form__input" type="date" placeholder="mm/dd/yyyy --:-- --" id="date-time"> 
+          <input class="form__input" type="date" id="date-time"> 
         </label> 
         <label class="form__label" for="email">Your email *
           <input class="form__input" type="email" id="email" placeholder="email@email.com"> 
@@ -233,16 +237,21 @@
 </footer>
 </div>
 <!-- Darkmode-->
-<script>document.getElementById('dark-mode-toggle').addEventListener('click', function() {
-  var body = document.body;
-  
-  // Toggle the "data-theme" attribute on the body
-  if (body.getAttribute('data-theme') === 'dark') {
-    body.setAttribute('data-theme', 'light');
+<script>function toggleTheme() {
+  // Check the current theme and switch to the other one
+  if (document.body.classList.contains('light-theme')) {
+    document.body.classList.remove('light-theme');
+    document.body.classList.add('dark-theme');
   } else {
-    body.setAttribute('data-theme', 'dark');
+    document.body.classList.remove('dark-theme');
+    document.body.classList.add('light-theme');
   }
-});
+}
+
+// Add event listener to the theme toggle button
+const themeToggleButton = document.getElementById('theme-toggle');
+themeToggleButton.addEventListener('click', toggleTheme);
+
 </script>
 
 </body>
