@@ -1,31 +1,22 @@
-# Triple Peaks Coffee Shop
+# Coffee Shop TripleTen
 
-Welcome to the repository for the Coffee Shop website, a dynamic and user-friendly platform designed to showcase the enticing world of coffee. This project aims to create a virtual space that brings the cozy ambiance and rich aroma of a coffee shop online.
+## Overview
+
+Coffee Shop TripleTen is the second project developed during the Web Development program at Triple Ten. Following a comprehensive design brief, this project exemplifies the use of fundamental web technologies to create a rich, user-friendly online coffee shop interface.
 
 ## Features
 
-- **Responsive Design**: Adapts seamlessly to any screen size for an optimal viewing experience across a wide range of devices.
-- **Interactive Menu**: Browse through our selection of coffee and related products with ease.
-- **Location Finder**: Find the nearest coffee shop with our integrated map feature.
-- **Online Ordering**: Place orders online for pick-up or delivery with just a few clicks.
+- **Semantic HTML5**: Leveraging semantic elements to structure the website for better SEO and accessibility.
+- **CSS Flexbox**: Utilizing Flexbox for a responsive layout that adapts to various screen sizes and devices.
+- **CSS Positioning**: Employing CSS positioning to strategically place elements across the webpage.
+- **Flat BEM**: Implementing the BEM methodology for a flat and scalable architecture that facilitates easier maintenance and style modification.
+- **Custom Form**: Incorporating a custom, stylized form for user interactions, enhancing engagement.
+- **CSS Animation and Transform**: Adding visual flair with CSS animations and transform effects for a dynamic user experience.
 
+## Future Improvements
 
-This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
+- [ ] **Menu Enhancements**: Link each menu item to a corresponding image that showcases the drink or food item.
+- [ ] **Video Animations**: Introduce subtle CSS animations to the videos for an immersive visual impact.
+- [ ] Your ideas here :)
 
-## Project features
-
-- Semantic HTML5
-- Flexbox
-- Positioning
-- Flat BEM file structure
-- A custom form
-- CSS animation and transform
-
-## Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-
-## Plan on improving the project
-...
+Feel free to contribute to this project by adding your ideas or improvements in the 'Issues' section of this repository.
