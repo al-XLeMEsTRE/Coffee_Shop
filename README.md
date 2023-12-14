@@ -4,7 +4,7 @@
 
 Coffee Shop TripleTen is the second project developed during the Web Development program at Triple Ten. Following a comprehensive design brief, this project exemplifies the use of fundamental web technologies to create a rich, user-friendly online coffee shop interface.
 
-<img src="https://github.com/GregoryAlexandre369/Coffee_Shop/blob/main/Project%20Overview.png" alt="Project Overview" width="300" height="500" align="left">
+<img src="https://github.com/GregoryAlexandre369/Coffee_Shop/blob/main/Project%20Overview.png" alt="Project Overview" width="250" height="500" align="left">
 ## Features
 
 - **Semantic HTML5**: Leveraging semantic elements to structure the website for better SEO and accessibility.
