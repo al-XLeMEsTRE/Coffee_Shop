@@ -1,4 +1,5 @@
 .DS_Store
- .history/
- .prettierignore
- se_project_coffeeshop.zip
+.history/
+se_project_coffeeshop.zip
+.prettierignore
+.editorconfig
