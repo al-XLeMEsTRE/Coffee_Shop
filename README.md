@@ -2,7 +2,6 @@
 
 ## Overview
 
-<img src="https://github.com/GregoryAlexandre369/Coffee_Shop/blob/main/Project%20Overview.png" alt="Project Overview" width="200" height="150" style="float: left; margin-right: 20px;">
 
 Coffee Shop TripleTen is the second project developed during the Web Development program at Triple Ten. Following a comprehensive design brief, this project exemplifies the use of fundamental web technologies to create a rich, user-friendly online coffee shop interface.
 
@@ -23,3 +22,5 @@ Coffee Shop TripleTen is the second project developed during the Web Development
 - [ ] Your ideas here 😊
 
 Feel free to contribute to this project by adding your ideas or improvements in the 'Issues' section of this repository.
+
+<img src="https://github.com/GregoryAlexandre369/Coffee_Shop/blob/main/Project%20Overview.png" alt="Project Overview" width="700" height="1000" style="float: left; margin-right: 20px;">
