@@ -1,15 +1,5 @@
 /* Footer */
-@keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
+
 .footer {
   box-sizing: border-box;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
@@ -92,4 +82,16 @@
   margin-bottom: 0;
   color: white;
   animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

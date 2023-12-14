@@ -1,0 +1,8 @@
+.DS_Store
+.history/
+dist/
+build/
+.vscode/
+.env
+.idea/
+.zip

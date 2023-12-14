@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gregory Alexandre">
+    <meta name="description" content="Coffee Shop">
+    <meta name="keywords" content="coffee, espresso, latte, cappuccino, beans, arabica, robusta, brew, cafe, barista, organic coffee, freshly brewed, coffeehouse, mocha, iced coffee, frappe, filter coffee, specialty coffee, local cafe">
+    <title>Coffee Shop </title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./pages/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+</head>
+<!-- Body -->
+<body>
+<div class="page">
+<!-- Header -->
+<header class="header">
+  <button class="switch" id="theme-toggle" class="theme-toggle-button">Toggle Theme</button>
+
+
+
+<!-- Nav -->
+<nav class="nav">
+    <img class="nav__logo" src="./images/logo_coffeeshop_dark.svg" alt="Coffee Shop logo">
+    <ul class="nav__links">
+        <li><a class="nav__link" href="#recipes">Recipes</a></li>
+        <li><a class="nav__link" href="#reservation">Book a table</a></li>
+        <li><a class="nav__link" href="#menu">Menu</a></li>
+        <li><a class="nav__link" href="#contacts">Contacts</a></li>
+    </ul>
+</nav>
+    <h1 class="header__title"><span class="header__span-accent"> Specailty Coffee </span> in the Triple Peaks Library</h1>
+    <p class="header__description">
+      Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.
+    </p>
+    <img
+      src="./images/inside_coffee_shop.png"
+      alt="Illustration 'Inside coffe shop'"
+      class="header__image"
+    />
+    <div class="header__footer">
+      <div>
+      <p class="header__heading">Hours</p>
+      <ul class="header__link">
+          <li class="header__paragraph">Monday - Friday (10:00 - 19:00)</li>
+          <li class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</li>
+      </ul>
+    </div>
+      <div>
+        <p class="header__paragraph">
+          200 Success Avenue, The Town of Triple Peaks
+      </p>
+      </div>
+  </div>
+</header>
+
+<!-- Main Section-->
+<main class="content">
+  <!-- Recipes-->
+    <section class="recipes" id="recipes">
+      <h2 class="recipes__title">Recipes</h2>
+      <p class="recipes__subtitle">
+       Check out some recipes we've collected for <br>your home-brewing convenience:
+      </p>
+      <ul class="recipes__videos" style="padding-left: 0; margin-top: 0; margin-bottom: 0;">
+        <li>
+          <iframe class="recipes__iframe" src="https://www.youtube.com/embed/j6VlT_jUVPc" title="The Ultimate AeroPress Technique (Episode #3)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <p class="recipes__video-caption"><span>Areopress recipe</span> ~5 min</p>
+        </li>
+        <li>
+          <iframe class="recipes__iframe" src="https://www.youtube.com/embed/st571DYYTR8" title="The Ultimate French Press Technique" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <p class="recipes__video-caption"><span>French press recipe</span> ~15 min</p>
+        </li>
+      </ul>
+    </section>
+    <!--Reservation-->
+    <section class="reservation" id="reservation"> 
+      <h2 class="reservation__title">Book a table</h2> 
+      <form class="form reservation__form" action="#" method="POST"> 
+        <label class="form__label" for="name">Name *
+          <input class="form__input" type="text" id="name" placeholder="Name Surname"> 
+        </label> 
+        <label class="form__label" for="guests">Number of guests*
+          <input class="form__input" type="number" id="guests" placeholder="1-8" min="1" max="8"> 
+        </label> 
+        <label class="form__label" for="date-time">Date & time *
+          <input class="form__input" type="date" id="date-time"> 
+        </label> 
+        <label class="form__label" for="email">Your email *
+          <input class="form__input" type="email" id="email" placeholder="email@email.com"> 
+        </label> 
+        <button class="form__button" type="submit">Book a table</button> 
+        <fieldset class="form__fieldset">
+          <label class="form__label form__label_type_checkbox">
+            <input class="form__checkbox" type="checkbox" id="terms">
+            I agree with the terms of use
+          </label>
+        </fieldset>
+      </form> 
+    </section>
+    
+    <!--    Menu Section-->
+    <section class="menu" id="menu"> 
+      <h2 class="menu__title">Menu</h2>
+      <p class="menu__subtitle">We bre coffee from rostead loccally and , Fairtrade certified beans and use biogradedable cups. All team from our collection are $2/cup </p>
+      
+      <ul class="menu__cards">
+
+        <li class="card">
+          <h3 class="card__title">
+            Filter
+          </h3>
+          <ul class="card__list">
+            <li class="card__list-item">
+              Regular (12oz)<span class="card__list-divider"></span>$1
+            </li>
+            <li class="card__list-item">
+              Large (16 oz)<span class="card__list-divider"></span>$1.25
+            </li>
+            <li class="card__list-item">
+              RXL (20 0z)<span class="card__list-divider"></span>$1.75
+            </li>
+            <li class="card__list-item">
+              Party-aize (24 oz, decaf)<span class="card__list-divider"></span>$1.75
+            </li>
+            <li class="card__list-item">
+              Iced Coffee (16 oz)<span class="card__list-divider"></span>$1.25
+            </li>
+          </ul>
+        </li>
+
+        <li class="card">
+          <h3 class="card__title">
+            Expresso
+          </h3>
+          <ul class="card__list">
+            <li class="card__list-item">
+              Macchiato<span class="card__list-divider"></span>$2.25
+            </li>
+            <li class="card__list-item">
+              Cortado<span class="card__list-divider"></span>$2.5
+            </li>
+            <li class="card__list-item">
+              Mocha<span class="card__list-divider"></span>$3
+            </li>
+            <li class="card__list-item">
+              Sunrise in the Bay Area (decaf)<span class="card__list-divider"></span>$10
+            </li>
+          </ul>
+        </li>
+
+        <li class="card">
+          <h3 class="card__title">
+            Backed Goods
+          </h3>
+          <ul class="card__list">
+            <li class="card__list-item">
+              Almond Croissant<span class="card__list-divider"></span>$2
+            </li>
+            <li class="card__list-item">
+              Banana Bread<span class="card__list-divider"></span>$1.75
+            </li>
+            <li class="card__list-item">
+              Key Lime Pie<span class="card__list-divider"></span>$3
+            </li>
+            <li class="card__list-item">
+              Blue Velvet Cake<span class="card__list-divider"></span>$3.75
+            </li>
+            <li class="card__list-item">
+              Web Cookie<span class="card__list-divider"></span>$2
+            </li>
+            <li class="card__list-item">
+              Fresh Baguette<span class="card__list-divider"></span>$0.25
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+
+     <!-- About Section -->
+    <section class="about" id="about">
+      <h2 class="about__title">About the coffee shop</h2>
+      <div class="about__content">
+        <p class="about__paragraph">
+        Our coffee shop is located in the Triple Ten Library. It features 6 tables and free Wifi.
+        </p>
+        <p class="about__paragraph">
+         Our main mission is keeping guests cozy and energized.
+        </p>
+        <p class="about__paragraph">
+         Besides that, we try to reduce our envionemental impact - so we don't sell single-use cups. But can buy one of our reusable cups!
+        </p>
+      </div>
+      <div class="about__circle"></div>
+      <div class="about__circle about__circle_animation_blurred"></div>
+    </section>
+</main>
+
+<!-- Footer Section-->
+<footer class="footer" id="contacts">
+  <div class="footer__contents">
+      <img
+        class="footer__logo"
+        src="./images/logo_coffeeshop_light.svg"
+        alt="footer logo"/>
+
+    <div class="footer__content-social">
+      <h3 class="footer__content-heading">Social media</h3>
+
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <a class="footer__content-link" href="#">
+            <img
+              class="footer__social-icon"
+              src="./images/facebook_white.svg"
+              alt="Facebook"/>Facebook</a>
+          </li>
+
+        <li class="footer__list-item">
+          <a class="footer__content-link" href="#">
+            <img
+              class="footer__social-icon"
+              src="./images/instagram_white.svg"
+              alt="Instagram"
+            />
+            Instagram
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <p class="footer__copyright">© 2023 Gregory Alexandre</p>
+</footer>
+</div>
+<!-- Darkmode-->
+<script>function toggleTheme() {
+  // Check the current theme and switch to the other one
+  if (document.body.classList.contains('light-theme')) {
+    document.body.classList.remove('light-theme');
+    document.body.classList.add('dark-theme');
+  } else {
+    document.body.classList.remove('dark-theme');
+    document.body.classList.add('light-theme');
+  }
+}
+
+// Add event listener to the theme toggle button
+const themeToggleButton = document.getElementById('theme-toggle');
+themeToggleButton.addEventListener('click', toggleTheme);
+
+</script>
+
+</body>
+</html>
